@@ -2,6 +2,7 @@ package pages;
 
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
+import io.appium.java_client.AppiumBy;
 
 public class HomePage {
     private AppiumDriver driver;
@@ -11,7 +12,7 @@ public class HomePage {
     }
 
     private By firstProduct =
-            MobileBy.xpath("(//android.widget.TextView[@resource-id='com.demo.app:id/productName'])[1]");
+            AppiumBy.xpath("(//android.widget.TextView[@resource-id='com.demo.app:id/productName'])[1]");
 
     public void clickFirstProduct() {
         driver.findElement(firstProduct).click();
