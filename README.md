@@ -27,15 +27,20 @@ Make sure the following tools are installed:
 - Android Emulator or Real Android Device
 - IntelliJ IDEA
 
+---
+Reflection Question Link 
+https://docs.google.com/document/d/1nfVNEfCtSsmUP3zSNu-m58l_rQpOTzGKFBPd5if23gY/edit?usp=sharing
+---
+
 Verify installation:
 
 ```bash
 java -version
 node -v
 appium -v
-adb devices
+adb devices ```
 
----
-Reflection Question Link 
-https://docs.google.com/document/d/1nfVNEfCtSsmUP3zSNu-m58l_rQpOTzGKFBPd5if23gY/edit?usp=sharing
----
+
+
+
+
