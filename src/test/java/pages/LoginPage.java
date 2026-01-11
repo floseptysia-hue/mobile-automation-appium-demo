@@ -20,13 +20,13 @@ public class LoginPage {
         );
     }
 
-    @AndroidFindBy(accessibility = "test-Username")
+    @AndroidFindBy(accessibility = "test-username")
     private WebElement usernameField;
 
-    @AndroidFindBy(accessibility = "test-Password")
+    @AndroidFindBy(accessibility = "test-password")
     private WebElement passwordField;
 
-    @AndroidFindBy(accessibility = "test-LOGIN")
+    @AndroidFindBy(accessibility = "test-login")
     private WebElement loginButton;
 
     public void enterUsername(String username) {
